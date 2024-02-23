@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta boxarset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chessboard</title>
+    <script src="https://kit.fontawesome.com/8dc070a4db.js" crossorigin="anonymous"></script>
+    <style>
+        .main{
+            border: 2px solid black;
+            height: 640px;
+            width:640px;
+            display: grid;
+            grid-template-columns: repeat(8,80px);
+           grid-template-rows: repeat(8,80px);
+        
+        }
+        
+        
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+        }
+        .b1:nth-child(2n){
+            background-color: rgb(69, 135, 69);
+        
+        }
+        .b2:nth-child(2n+1){
+            background-color: rgb(69, 135, 69);
+        }
+        i:hover{
+            transform: scale(1.2,1.3);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="box b1 "><i class="fa-solid fa-chess-rook" style="font-size: 40px;"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-knight" style="font-size: 40px;"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-bishop" style="font-size: 40px;"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-queen" style="font-size:40px"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-king" style="font-size:40px"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-bishop" style="font-size: 40px;"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-knight" style="font-size: 40px;"></i></div> 
+        <div class="box b1 "><i class="fa-solid fa-chess-rook" style="font-size: 40px;"></i></div>  
+       
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div> 
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div> 
+      
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div> 
+        <div class="box b1"></div>  
+       
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div> 
+        <div class="box b2"></div> 
+      
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div> 
+        <div class="box b1"></div>  
+       
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div> 
+        <div class="box b2"></div> 
+      
+        <div class="box b1 "><i class="fa-solid fa-chess-rook" style="font-size: 40px;"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-knight" style="font-size: 40px;"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-bishop" style="font-size: 40px;"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-queen" style="font-size:40px"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-king" style="font-size:40px"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-bishop" style="font-size: 40px;"></i></div>
+        <div class="box b1 "><i class="fa-solid fa-chess-knight" style="font-size: 40px;"></i></div> 
+        <div class="box b1 "><i class="fa-solid fa-chess-rook" style="font-size: 40px;"></i></div>  
+       
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div> 
+        <div class="box b2 "><i class="fa-solid fa-chess-pawn" style="font-size: 40px;"></i></div>
+    </div>
+</body>
+</html>
